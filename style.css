@@ -1,189 +1,93 @@
 body {
-  margin: 0;
-  min-width: 960px;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 32px;
-  color: #f2f2f2;
-  background-color: #080208;
-  background-image: url("img/hero-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  background: #ffffff url("img/keks-background.jpg") no-repeat 50% 0;
+}
+
+h1 {
+  width: 260px;
+  font-family: "Georgia", serif;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+h2 {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.site-header {
+  margin-bottom: 30px;
+}
+
+.skills-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 10px solid #c4c4c4;
+  color: #999999;
+}
+
+.standart {
+  border-color: #ffc5b3;
+  color: #666666;
+}
+
+/* Добавьте правило ниже */
+
+.vip {
+  border-color: #ff5a26;
+  color: #000000;
 }
 
 .container {
-  max-width: 928px;
+  width: 480px;
   margin: 0 auto;
-  padding: 0 16px;
 }
 
-.page-header {
-  margin: 0 0 180px;
-  padding: 32px 0 32px;
+.site-header img {
+  display: block;
+  margin: 0 auto;
 }
 
-.page-header .container,
-.page-footer .container {
-  max-width: 1408px;
-  text-align: right;
+.features {
+  margin-bottom: 30px;
 }
 
-.page-header a {
-  margin-left: 56px;
-  color: #fea18d;
-  text-decoration: none;
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  text-align: center;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center top;
 }
 
-.header-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email.svg");
+.feature-kitten {
+  padding-top: 60px;
+  background-image: url("img/bottle.svg");
 }
 
-.header-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone.svg");
+.feature-cat {
+  padding-top: 60px;
+  background-image: url("img/cat.svg");
 }
 
-.hero-image {
-  margin-bottom: 480px;
-}
-
-.hero-image .container {
-  max-width: 1408px;
-  text-align: center;
-}
-
-.heading {
-  margin: 0 0 24px;
-  font-size: 80px;
-  line-height: 96px;
-}
-
-.hero-image p {
-  margin: 0;
-  font-size: 32px;
-  line-height: 48px;
-}
-
-.intro {
-  margin: 0 0 120px;
-}
-
-.subheading {
-  margin: 0 0 56px;
-  font-size: 56px;
-  line-height: 80px;
-  text-align: center;
-}
-
-.user-image {
-  margin: 0 0 32px;
-  text-align: center;
-}
-
-.intro h3,
-.portfolio h3 {
-  margin: 0 0 12px;
-  font-size: 28px;
-  line-height: 40px;
-  font-weight: 500;
-}
-
-.intro p {
-  margin: 0 0 32px;
+.feature-train {
+  padding-top: 60px;
+  background-image: url("img/whistle.svg");
 }
 
 .skills-list {
-  margin: 0;
-  padding: 0;
-}
-
-.skills-list dt {
-  padding-left: 32px;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-.skill-html {
-  background-image: url("img/icon-html.svg");
-}
-
-.skill-css {
-  background-image: url("img/icon-css.svg");
-}
-
-.level {
-  margin: 4px 0 16px;
-  padding: 0;
-  height: 14px;
-  font-size: 0;
-  background-color: #080208;
-  border: 1px solid #712073;
-  border-radius: 8px;
-}
-
-.level div {
-  margin: 1px;
-  height: 12px;
-  background-color: #fea18d;
-  border-radius: 6px;
-}
-
-.portfolio {
-  margin: 0 0 120px;
-}
-
-.projects {
-  margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.projects li {
-  margin: 0 0 80px;
-}
-
-.project-image {
-  margin: 0 0 24px;
-  text-align: center;
-}
-
-.projects p {
-  margin: 0 0 24px;
-}
-
-.button {
-  padding: 6px 20px;
-  display: inline-block;
-  vertical-align: baseline;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 4px;
-  background-color: #712073;
-  color: #ffffff;
-}
-
-.page-footer {
-  padding: 40px 0;
-  background-color: #260c26;
-}
-
-.page-footer a {
-  margin-left: 56px;
-  color: #fea18d;
-  text-decoration: none;
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-.footer-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email.svg");
-}
-
-.footer-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone.svg");
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
 }
