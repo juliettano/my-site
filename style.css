@@ -115,9 +115,12 @@ img {
   margin: 0 0 32px;
 }
 
-.skills-list {
+.skills {
   margin: 0;
   padding: 0;
+  width: 50%;
+  position: relative;
+  left: 330px;
 }
 
 .skills-list dt {
