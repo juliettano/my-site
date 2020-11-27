@@ -10,7 +10,25 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
 }
+.main-menu {
+  
+  background-position: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
 
+.main-menu li {
+  display: inline-block;
+
+}
+
+.main-menu a {
+  display: block;
+}
+.main-menu a:hover {
+  background-color: #eeeeee;
+}
 .container {
   max-width: 928px;
   margin: 0 auto;
