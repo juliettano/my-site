@@ -14,6 +14,8 @@ body {
    margin: 0 ;
   padding: 0;
   list-style: none;
+  position: relative;
+  left: -330px;
   }
 
 .main-menu li {
@@ -53,13 +55,17 @@ body {
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email.svg");
-  
+  position: relative;
+  right: -580px;
+  top: -30px;
 }
 
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
-
+  position: relative;
+  right: -650px;
+  top: -30px;
 }
 img {
   width: 100%;
