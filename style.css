@@ -11,20 +11,19 @@ body {
   background-position: top center;
 }
 .main-menu {
-  
-  background-position: left;
-  margin: 0;
+   margin: 0 ;
   padding: 0;
   list-style: none;
   }
 
 .main-menu li {
   display: inline-block;
-
-}
+  }
 
 .main-menu a {
   display: block;
+
+
 }
 .main-menu a:hover {
   background-color: #eeeeee;
@@ -39,13 +38,10 @@ body {
   margin: 0 0 180px;
   padding: 32px 0 32px;
 }
-
-.page-header .container,
 .page-footer .container {
   max-width: 1408px;
   text-align: right;
 }
-
 .page-header a {
   margin-left: 56px;
   color: #fea18d;
@@ -57,11 +53,13 @@ body {
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email.svg");
+  
 }
 
 .header-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
+
 }
 img {
   width: 100%;
